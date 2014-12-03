@@ -1,0 +1,440 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AES_set_encrypt_key	configure	/^AES_set_encrypt_key ();$/;"	f
+BF_set_key	configure	/^BF_set_key ();$/;"	f
+CIPHER_CODE	lfd_encrypt.c	72;"	d	file:
+CIPHER_INIT	lfd_encrypt.c	71;"	d	file:
+CIPHER_REQ_INIT	lfd_encrypt.c	74;"	d	file:
+CIPHER_SEQUENCE	lfd_encrypt.c	73;"	d	file:
+ENC_BUF_SIZE	lfd_encrypt.c	64;"	d	file:
+ENC_BUF_SIZE	lfd_legacy_encrypt.c	61;"	d	file:
+ENC_KEY_SIZE	lfd_encrypt.c	65;"	d	file:
+ENC_KEY_SIZE	lfd_legacy_encrypt.c	62;"	d	file:
+EVP_EncryptInit	configure	/^EVP_EncryptInit ();$/;"	f
+LINKFD_FRAME_APPEND	linkfd.h	35;"	d
+LINKFD_FRAME_RESERV	linkfd.h	34;"	d
+LINKFD_PRIO	linkfd.h	32;"	d
+LOG_PERROR	compat.h	26;"	d
+MAX_GIBBERISH	lfd_encrypt.c	81;"	d	file:
+MAX_GIBBERISH_TIME	lfd_encrypt.c	83;"	d	file:
+MIN_GIBBERISH	lfd_encrypt.c	82;"	d	file:
+OTUNSETDEBUG	linux/tun_dev.c	79;"	d	file:
+OTUNSETIFF	linux/tun_dev.c	80;"	d	file:
+OTUNSETNOCSUM	linux/tun_dev.c	78;"	d	file:
+OTUNSETOWNER	linux/tun_dev.c	82;"	d	file:
+OTUNSETPERSIST	linux/tun_dev.c	81;"	d	file:
+Rconnect	configure	/^Rconnect ();$/;"	f
+SA_NOCLDWAIT	compat.h	30;"	d
+SOCKSconnect	configure	/^SOCKSconnect ();$/;"	f
+ST_CHAL	auth.h	27;"	d
+ST_HOST	auth.h	26;"	d
+ST_INIT	auth.h	25;"	d
+VTUN_ADDR_IFACE	vtun.h	81;"	d
+VTUN_ADDR_NAME	vtun.h	82;"	d
+VTUN_BAD_FRAME	vtun.h	185;"	d
+VTUN_CHAL_SIZE	auth.h	23;"	d
+VTUN_CLNT_MASK	vtun.h	161;"	d
+VTUN_CMD_DELAY	vtun.h	71;"	d
+VTUN_CMD_SHELL	vtun.h	72;"	d
+VTUN_CMD_WAIT	vtun.h	70;"	d
+VTUN_CONNECT_TIMEOUT	vtun.h	32;"	d
+VTUN_CONN_CLOSE	vtun.h	182;"	d
+VTUN_DELAY_SEC	vtun.h	38;"	d
+VTUN_DEV_LEN	vtun.h	44;"	d
+VTUN_ECHO_REP	vtun.h	184;"	d
+VTUN_ECHO_REQ	vtun.h	183;"	d
+VTUN_ENCRYPT	vtun.h	137;"	d
+VTUN_ENC_AES128CBC	vtun.h	150;"	d
+VTUN_ENC_AES128CFB	vtun.h	151;"	d
+VTUN_ENC_AES128ECB	vtun.h	149;"	d
+VTUN_ENC_AES128OFB	vtun.h	152;"	d
+VTUN_ENC_AES256CBC	vtun.h	154;"	d
+VTUN_ENC_AES256CFB	vtun.h	155;"	d
+VTUN_ENC_AES256ECB	vtun.h	153;"	d
+VTUN_ENC_AES256OFB	vtun.h	156;"	d
+VTUN_ENC_BF128CBC	vtun.h	141;"	d
+VTUN_ENC_BF128CFB	vtun.h	142;"	d
+VTUN_ENC_BF128ECB	vtun.h	140;"	d
+VTUN_ENC_BF128OFB	vtun.h	143;"	d
+VTUN_ENC_BF256CBC	vtun.h	145;"	d
+VTUN_ENC_BF256CFB	vtun.h	146;"	d
+VTUN_ENC_BF256ECB	vtun.h	144;"	d
+VTUN_ENC_BF256OFB	vtun.h	147;"	d
+VTUN_ETHER	vtun.h	125;"	d
+VTUN_FRAME_OVERHEAD	vtun.h	179;"	d
+VTUN_FRAME_SIZE	vtun.h	178;"	d
+VTUN_FSIZE_MASK	vtun.h	180;"	d
+VTUN_INETD	vtun.h	225;"	d
+VTUN_KEEP_ALIVE	vtun.h	132;"	d
+VTUN_LEGACY_ENCRYPT	vtun.h	158;"	d
+VTUN_LZO	vtun.h	135;"	d
+VTUN_MESG_SIZE	vtun.h	188;"	d
+VTUN_MULTI_ALLOW	vtun.h	192;"	d
+VTUN_MULTI_DENY	vtun.h	191;"	d
+VTUN_MULTI_KILL	vtun.h	193;"	d
+VTUN_NAT_HACK_CLIENT	vtun.h	168;"	d
+VTUN_NAT_HACK_MASK	vtun.h	170;"	d
+VTUN_NAT_HACK_SERVER	vtun.h	169;"	d
+VTUN_PERSIST	vtun.h	164;"	d
+VTUN_PERSIST_KEEPIF	vtun.h	196;"	d
+VTUN_PIPE	vtun.h	124;"	d
+VTUN_PORT	vtun.h	29;"	d
+VTUN_PROT_MASK	vtun.h	131;"	d
+VTUN_SHAPE	vtun.h	136;"	d
+VTUN_SIG_HUP	vtun.h	201;"	d
+VTUN_SIG_TERM	vtun.h	200;"	d
+VTUN_STAND_ALONE	vtun.h	224;"	d
+VTUN_STAT	vtun.h	163;"	d
+VTUN_STAT_IVAL	vtun.h	41;"	d
+VTUN_TCP	vtun.h	129;"	d
+VTUN_TIMEOUT	vtun.h	35;"	d
+VTUN_TTY	vtun.h	123;"	d
+VTUN_TUN	vtun.h	126;"	d
+VTUN_TYPE_MASK	vtun.h	127;"	d
+VTUN_UDP	vtun.h	130;"	d
+VTUN_USE_NAT_HACK	vtun.h	172;"	d
+VTUN_USE_NAT_HACK	vtun.h	174;"	d
+VTUN_ZLIB	vtun.h	134;"	d
+_DRIVER_H	driver.h	23;"	d
+_LINKFD_H	linkfd.h	24;"	d
+_VTUN_COMPAT_H	compat.h	23;"	d
+_VTUN_H	vtun.h	24;"	d
+_VTUN_LIB_H	lib.h	23;"	d
+_VTUN_LLIST_H	llist.h	25;"	d
+_VTUN_LOCK_H	lock.h	24;"	d
+_VTUN_NETDEV_H	netlib.h	24;"	d
+_VTUN_SOCKS_H	vtun_socks.h	24;"	d
+__io_canceled	lib.c	/^volatile sig_atomic_t __io_canceled = 0;$/;"	v
+alloc	linkfd.h	/^   int (*alloc)(struct vtun_host *host);$/;"	m	struct:lfd_mod
+alloc_encrypt	lfd_encrypt.c	/^int alloc_encrypt(struct vtun_host *host)$/;"	f
+alloc_legacy_encrypt	lfd_legacy_encrypt.c	/^int alloc_legacy_encrypt(struct vtun_host *host)$/;"	f
+alloc_lzo	lfd_lzo.c	/^int alloc_lzo(struct vtun_host *host)$/;"	f
+args	vtun.h	/^   char *args;$/;"	m	struct:vtun_cmd
+auth_client	auth.c	/^int auth_client(int fd, struct vtun_host *host)$/;"	f
+auth_server	auth.c	/^struct vtun_host * auth_server(int fd)$/;"	f
+avail_decode	linkfd.h	/^   int (*avail_decode)(void);$/;"	m	struct:lfd_mod
+avail_encode	linkfd.h	/^   int (*avail_encode)(void);$/;"	m	struct:lfd_mod
+bf2cf	auth.c	/^char *bf2cf(struct vtun_host *host)$/;"	f
+bind	vtun_socks.h	30;"	d
+bind	vtun_socks.h	37;"	d
+bind_addr	vtun.h	/^   struct vtun_addr bind_addr;	 \/* Server should listen on this address *\/$/;"	m	struct:vtun_opts	typeref:struct:vtun_opts::vtun_addr
+bindaddr_option	cfg_file.y	/^bindaddr_option: $/;"	l
+blocksize	lfd_encrypt.c	/^int blocksize;$/;"	v
+byte_in	vtun.h	/^   unsigned long byte_in;$/;"	m	struct:vtun_stat
+byte_out	vtun.h	/^   unsigned long byte_out;$/;"	m	struct:vtun_stat
+bytes	lfd_shaper.c	/^unsigned long bytes, max_speed;$/;"	v
+cf2bf	auth.c	/^int cf2bf(char *str, struct vtun_host *host)$/;"	f
+cfg_file	vtun.h	/^   char *cfg_file;$/;"	m	struct:vtun_opts
+cfg_keyword	cfg_kwords.h	/^struct kword cfg_keyword[] = {$/;"	v	typeref:struct:kword
+cfg_param	cfg_kwords.h	/^struct kword cfg_param[] = {$/;"	v	typeref:struct:kword
+cipher	lfd_encrypt.c	/^int cipher;$/;"	v
+cipher	vtun.h	/^   int  cipher;$/;"	m	struct:vtun_host
+cipher_dec_init	lfd_encrypt.c	/^int cipher_dec_init(char * iv)$/;"	f
+cipher_dec_state	lfd_encrypt.c	/^int cipher_dec_state;$/;"	v
+cipher_enc_init	lfd_encrypt.c	/^int cipher_enc_init(char * iv)$/;"	f
+cipher_enc_state	lfd_encrypt.c	/^int cipher_enc_state;$/;"	v
+cl2cs	auth.c	/^char *cl2cs(char *chal)$/;"	f
+client	client.c	/^void client(struct vtun_host *host)$/;"	f
+client_term	client.c	/^static volatile sig_atomic_t client_term;$/;"	v	file:
+command_option	cfg_file.y	/^command_option: '\\n' $/;"	l
+command_options	cfg_file.y	/^command_options: \/* empty *\/$/;"	l
+comp_in	vtun.h	/^   unsigned long comp_in;$/;"	m	struct:vtun_stat
+comp_lzo	lfd_lzo.c	/^int comp_lzo(int len, char *in, char **out)$/;"	f
+comp_out	vtun.h	/^   unsigned long comp_out;$/;"	m	struct:vtun_stat
+compress	cfg_file.y	/^compress:  $/;"	l
+config	cfg_file.y	/^config: $/;"	l
+connect	vtun_socks.h	29;"	d
+connect	vtun_socks.h	36;"	d
+connect_t	netlib.c	/^int connect_t(int s, struct sockaddr *svr, time_t timeout) $/;"	f
+connection	server.c	/^void connection(int sock)$/;"	f
+create_lock	lock.c	/^int create_lock(char * file)$/;"	f
+cs2cl	auth.c	/^int cs2cl(char *str, char *chal)$/;"	f
+ctx_dec	lfd_encrypt.c	/^EVP_CIPHER_CTX ctx_dec;	\/* decrypt *\/$/;"	v
+ctx_dec_ecb	lfd_encrypt.c	/^EVP_CIPHER_CTX ctx_dec_ecb;	\/* sideband ecb decrypt *\/$/;"	v
+ctx_enc	lfd_encrypt.c	/^EVP_CIPHER_CTX ctx_enc;	\/* encrypt *\/$/;"	v
+ctx_enc_ecb	lfd_encrypt.c	/^EVP_CIPHER_CTX ctx_enc_ecb;	\/* sideband ecb encrypt *\/$/;"	v
+curr_time	lfd_shaper.c	/^struct timeval curr_time, last_time;$/;"	v	typeref:struct:timeval
+data	llist.h	/^	void * data;$/;"	m	struct:llist_element
+dec_buf	lfd_encrypt.c	/^char * dec_buf;$/;"	v
+dec_init_first_time	lfd_encrypt.c	/^int dec_init_first_time;$/;"	v
+decode	linkfd.h	/^   int (*decode)(int len, char *in, char **out);$/;"	m	struct:lfd_mod
+decomp_lzo	lfd_lzo.c	/^int decomp_lzo(int len, char *in, char **out)$/;"	f
+decrypt_buf	lfd_encrypt.c	/^int decrypt_buf(int len, char *in, char **out)$/;"	f
+decrypt_chal	auth.c	/^void decrypt_chal(char *chal, char *pwd)$/;"	f
+decrypt_chal	auth.c	/^void inline decrypt_chal(char *chal, char *pwd)$/;"	f
+default_host	main.c	/^struct vtun_host default_host;$/;"	v	typeref:struct:vtun_host
+deflate	configure	/^deflate ();$/;"	f
+dev	vtun.h	/^    char *dev;$/;"	m	struct:vtun_sopt
+dev	vtun.h	/^   char *dev;$/;"	m	struct:vtun_host
+dev_read	tunnel.c	/^int (*dev_read)(int fd, char *buf, int len);$/;"	v
+dev_write	tunnel.c	/^int (*dev_write)(int fd, char *buf, int len);$/;"	v
+down	vtun.h	/^   llist down;$/;"	m	struct:vtun_host
+enc_buf	lfd_encrypt.c	/^char * enc_buf;$/;"	v
+enc_buf	lfd_legacy_encrypt.c	/^char * enc_buf;$/;"	v
+enc_init_first_time	lfd_encrypt.c	/^int enc_init_first_time;$/;"	v
+encode	linkfd.h	/^   int (*encode)(int len, char *in, char **out);$/;"	m	struct:lfd_mod
+encrypt_buf	lfd_encrypt.c	/^int encrypt_buf(int len, char *in, char **out)$/;"	f
+encrypt_chal	auth.c	/^void encrypt_chal(char *chal, char *pwd)$/;"	f
+expand_zbuf	lfd_zlib.c	/^static int expand_zbuf(z_stream *zs, int len)$/;"	f	file:
+file	vtun.h	/^   FILE *file;$/;"	m	struct:vtun_stat
+flags	vtun.h	/^   int  flags;$/;"	m	struct:vtun_cmd
+flags	vtun.h	/^   int  flags;$/;"	m	struct:vtun_host
+free	linkfd.h	/^   int (*free)(void);$/;"	m	struct:lfd_mod
+free_encrypt	lfd_encrypt.c	/^int free_encrypt()$/;"	f
+free_key	lfd_encrypt.c	/^void free_key (char *key)$/;"	f
+free_legacy_encrypt	lfd_legacy_encrypt.c	/^int free_legacy_encrypt()$/;"	f
+free_lzo	lfd_lzo.c	/^int free_lzo()$/;"	f
+free_sopt	lib.c	/^void free_sopt( struct vtun_sopt *opt )$/;"	f
+fwall	vtun.h	/^   char *fwall; 	 \/* Command to configure FireWall *\/$/;"	m	struct:vtun_opts
+gen_chal	auth.c	/^void gen_chal(char *buf)$/;"	f
+generic_addr	netlib.c	/^int generic_addr(struct sockaddr_in *addr, struct vtun_addr *vaddr)$/;"	f
+gethostbyname	configure	/^gethostbyname ();$/;"	f
+gethostbyname	vtun_socks.h	34;"	d
+gethostbyname	vtun_socks.h	41;"	d
+getifaddr	netlib.c	/^unsigned long getifaddr(char * ifname) $/;"	f
+getpeername	vtun_socks.h	33;"	d
+getpeername	vtun_socks.h	40;"	d
+getsockname	vtun_socks.h	32;"	d
+getsockname	vtun_socks.h	39;"	d
+gib_time_start	lfd_encrypt.c	/^time_t gib_time_start;$/;"	v
+gibberish	lfd_encrypt.c	/^int gibberish;$/;"	v
+head	llist.h	/^	llist_elm * head;$/;"	m	struct:__anon1
+host	vtun.h	/^   char *host;$/;"	m	struct:vtun_host
+host_option	cfg_file.y	/^host_option: '\\n'$/;"	l
+host_options	cfg_file.y	/^host_options:$/;"	l
+ifcfg	vtun.h	/^   char *ifcfg;		 \/* Command to configure net devices *\/$/;"	m	struct:vtun_opts
+inet_ntoa	configure	/^inet_ntoa ();$/;"	f
+init_title	lib.c	/^void init_title(int argc,char *argv[], char *envp[], char *name)$/;"	f
+init_title	lib.h	38;"	d
+io_cancel	lib.h	/^static inline void io_cancel(void)$/;"	f
+io_init	lib.h	/^static inline void io_init(void)$/;"	f
+ip	vtun.h	/^   char *ip;$/;"	m	struct:vtun_addr
+ip_fd	svr4/tun_dev.c	/^static int ip_fd = -1;$/;"	v	file:
+iproute	vtun.h	/^   char *iproute;	 \/* iproute command *\/$/;"	m	struct:vtun_opts
+is_rmt_fd_connected	main.c	/^int is_rmt_fd_connected=1; $/;"	v
+iv_buf	lfd_encrypt.c	/^char * iv_buf;$/;"	v
+ka_interval	vtun.h	/^   int ka_interval;$/;"	m	struct:vtun_host
+ka_maxfail	vtun.h	/^   int ka_maxfail;$/;"	m	struct:vtun_host
+ka_need_verify	linkfd.c	/^static volatile sig_atomic_t ka_need_verify = 0;$/;"	v	file:
+ka_timer	linkfd.c	/^static time_t stat_timer = 0, ka_timer = 0; $/;"	v	file:
+keepalive	cfg_file.y	/^keepalive:  $/;"	l
+key	lfd_encrypt.c	/^BF_KEY key;$/;"	v
+key	lfd_legacy_encrypt.c	/^BF_KEY key;$/;"	v
+keysize	lfd_encrypt.c	/^int keysize;$/;"	v
+kword	cfg_kwords.h	/^struct kword {$/;"	s
+laddr	vtun.h	/^    char *laddr;$/;"	m	struct:vtun_sopt
+last_time	lfd_shaper.c	/^struct timeval curr_time, last_time;$/;"	v	typeref:struct:
+legacy_decrypt_buf	lfd_legacy_encrypt.c	/^int legacy_decrypt_buf(int len, char *in, char **out)$/;"	f
+legacy_encrypt_buf	lfd_legacy_encrypt.c	/^int legacy_encrypt_buf(int len, char *in, char **out)$/;"	f
+lfd_add_mod	linkfd.c	/^void lfd_add_mod(struct lfd_mod *mod)$/;"	f
+lfd_alloc	linkfd.h	/^static inline void * lfd_alloc(size_t size)$/;"	f
+lfd_alloc_mod	linkfd.c	/^int lfd_alloc_mod(struct vtun_host *host)$/;"	f
+lfd_check_down	linkfd.c	/^inline int lfd_check_down(void)$/;"	f
+lfd_check_up	linkfd.c	/^inline int lfd_check_up(void)$/;"	f
+lfd_encrypt	lfd_encrypt.c	/^struct lfd_mod lfd_encrypt = {$/;"	v	typeref:struct:lfd_mod
+lfd_free	linkfd.h	/^static inline void lfd_free(void *buf)$/;"	f
+lfd_free_mod	linkfd.c	/^int lfd_free_mod(void)$/;"	f
+lfd_host	linkfd.c	/^struct vtun_host *lfd_host;$/;"	v	typeref:struct:vtun_host
+lfd_legacy_encrypt	lfd_legacy_encrypt.c	/^struct lfd_mod lfd_legacy_encrypt = {$/;"	v	typeref:struct:lfd_mod
+lfd_linker	linkfd.c	/^int lfd_linker(void)$/;"	f
+lfd_lzo	lfd_lzo.c	/^struct lfd_mod lfd_lzo = {$/;"	v	typeref:struct:lfd_mod
+lfd_mod	linkfd.h	/^struct lfd_mod {$/;"	s
+lfd_mod_head	linkfd.c	/^struct lfd_mod *lfd_mod_head = NULL, *lfd_mod_tail = NULL;$/;"	v	typeref:struct:lfd_mod
+lfd_mod_tail	linkfd.c	/^struct lfd_mod *lfd_mod_head = NULL, *lfd_mod_tail = NULL;$/;"	v	typeref:struct:
+lfd_realloc	linkfd.h	/^static inline void * lfd_realloc(void *buf, size_t size)$/;"	f
+lfd_run_down	linkfd.c	/^inline int lfd_run_down(int len, char *in, char **out)$/;"	f
+lfd_run_up	linkfd.c	/^inline int lfd_run_up(int len, char *in, char **out)$/;"	f
+lfd_shaper	lfd_shaper.c	/^struct lfd_mod lfd_shaper = {$/;"	v	typeref:struct:lfd_mod
+lfd_zlib	lfd_zlib.c	/^struct lfd_mod lfd_zlib = {$/;"	v	typeref:struct:lfd_mod
+linker_term	linkfd.c	/^static volatile sig_atomic_t linker_term;$/;"	v	file:
+linkfd	linkfd.c	/^int linkfd(struct vtun_host *host)$/;"	f
+listener	server.c	/^void listener(void)$/;"	f
+llist	llist.h	/^} llist;$/;"	t	typeref:struct:__anon1
+llist_add	llist.c	/^int llist_add(llist *l, void * d)$/;"	f
+llist_copy	llist.c	/^int llist_copy(llist *l, llist *t, void* (*f)(void *d, void *u), void *u)$/;"	f
+llist_element	llist.h	/^struct llist_element {$/;"	s
+llist_elm	llist.h	/^typedef struct llist_element llist_elm;$/;"	t	typeref:struct:llist_element
+llist_empty	llist.c	/^int llist_empty(llist *l)$/;"	f
+llist_free	llist.c	/^void * llist_free(llist *l, int (*f)(void *d, void *u), void *u)$/;"	f
+llist_init	llist.c	/^void llist_init(llist *l)$/;"	f
+llist_trav	llist.c	/^void * llist_trav(llist *l, int (*f)(void *d, void *u), void *u)$/;"	f
+loc_fd	vtun.h	/^   int  loc_fd;$/;"	m	struct:vtun_host
+local_addr	netlib.c	/^int local_addr(struct sockaddr_in *addr, struct vtun_host *host, int con)$/;"	f
+lock_host	lock.c	/^int lock_host(struct vtun_host * host)$/;"	f
+lport	vtun.h	/^    int  lport;$/;"	m	struct:vtun_sopt
+lzo1x_compress	lfd_lzo.c	/^int (*lzo1x_compress)(const lzo_byte *src, lzo_uint  src_len,$/;"	v
+lzo1x_decompress	configure	/^lzo1x_decompress ();$/;"	f
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+main	main.c	/^int main(int argc, char *argv[], char *env[])$/;"	f
+max_speed	lfd_shaper.c	/^unsigned long bytes, max_speed;$/;"	v
+min	lib.h	43;"	d
+multi	vtun.h	/^   int  multi;$/;"	m	struct:vtun_host
+name	linkfd.h	/^   char *name;$/;"	m	struct:lfd_mod
+name	vtun.h	/^   char *name;$/;"	m	struct:vtun_addr
+nanosleep	configure	/^nanosleep ();$/;"	f
+next	linkfd.h	/^   struct lfd_mod *next;$/;"	m	struct:lfd_mod	typeref:struct:lfd_mod::lfd_mod
+next	llist.h	/^	struct llist_element * next;$/;"	m	struct:llist_element	typeref:struct:llist_element::llist_element
+no_encrypt	lfd_encrypt.c	/^int no_encrypt(struct vtun_host *host)$/;"	f
+no_legacy_encrypt	lfd_legacy_encrypt.c	/^int no_legacy_encrypt(struct vtun_host *host)$/;"	f
+no_lzo	lfd_lzo.c	/^int no_lzo(struct vtun_host *host)$/;"	f
+no_shaper	lfd_shaper.c	/^int no_shaper(struct vtun_host *host)$/;"	f
+no_zlib	lfd_zlib.c	/^int no_zlib(struct vtun_host *host)$/;"	f
+option	cfg_file.y	/^option:  '\\n'$/;"	l
+options	cfg_file.y	/^options:$/;"	l
+passwd	vtun.h	/^   char *passwd;$/;"	m	struct:vtun_host
+persist	vtun.h	/^   int  persist;$/;"	m	struct:vtun_host
+persist	vtun.h	/^   int  persist;$/;"	m	struct:vtun_opts
+phost	lfd_encrypt.c	/^struct vtun_host *phost;$/;"	v	typeref:struct:vtun_host
+pipe_open	generic/pipe_dev.c	/^int pipe_open(int *fd)$/;"	f
+pipe_read	generic/pipe_dev.c	/^int pipe_read(int fd, char *buf, int len)$/;"	f
+pipe_write	generic/pipe_dev.c	/^int pipe_write(int fd, char *buf, int len)$/;"	f
+pkey	lfd_encrypt.c	/^char * pkey;$/;"	v
+port	vtun.h	/^   int port;$/;"	m	struct:vtun_addr
+ppp	vtun.h	/^   char *ppp;		 \/* Command to configure ppp devices *\/$/;"	m	struct:vtun_opts
+prep_key	lfd_encrypt.c	/^int prep_key(char **key, int size, struct vtun_host *host)$/;"	f
+prev	linkfd.h	/^   struct lfd_mod *prev;$/;"	m	struct:lfd_mod	typeref:struct:lfd_mod::lfd_mod
+print_p	lib.c	/^int print_p(int fd,const char *fmt, ...)$/;"	f
+prog	vtun.h	/^   char *prog;$/;"	m	struct:vtun_cmd
+prog_option	cfg_file.y	/^prog_option:$/;"	l
+prog_options	cfg_file.y	/^prog_options:$/;"	l
+proto_read	tunnel.c	/^int (*proto_read)(int fd, char *buf);$/;"	v
+proto_write	tunnel.c	/^int (*proto_write)(int fd, char *buf, int len);$/;"	v
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+pty_open	generic/pty_dev.c	/^int pty_open(char *sl_name)$/;"	f
+pty_read	generic/pty_dev.c	/^int pty_read(int fd, char *buf, int len)$/;"	f
+pty_write	generic/pty_dev.c	/^int pty_write(int fd, char *buf, int len)$/;"	f
+quiet	vtun.h	/^   int  quiet;		 \/* Be quiet about common errors *\/$/;"	m	struct:vtun_opts
+raddr	vtun.h	/^    char *raddr;$/;"	m	struct:vtun_sopt
+read_lock	lock.c	/^pid_t read_lock(char * file)$/;"	f
+read_n	lib.h	/^static inline int read_n(int fd, char *buf, int len)$/;"	f
+readn_t	lib.c	/^int readn_t(int fd, void *buf, size_t count, time_t timeout) $/;"	f
+recv_ib_mesg	lfd_encrypt.c	/^int recv_ib_mesg(int *len, char **in)$/;"	f
+recv_msg	lfd_encrypt.c	/^int recv_msg(int len, char *in, char **out)$/;"	f
+reread_config	main.c	/^void reread_config(int sig)$/;"	f
+rmt_fd	vtun.h	/^   int  rmt_fd;$/;"	m	struct:vtun_host
+route	vtun.h	/^   char *route;		 \/* Command to configure routing *\/$/;"	m	struct:vtun_opts
+rport	vtun.h	/^    int  rport;$/;"	m	struct:vtun_sopt
+run_cmd	lib.c	/^int run_cmd(void *d, void *opt)$/;"	f
+select	vtun_socks.h	31;"	d
+select	vtun_socks.h	38;"	d
+send_a_packet	linkfd.c	/^int send_a_packet = 0;$/;"	v
+send_ib_mesg	lfd_encrypt.c	/^int send_ib_mesg(int *len, char **in)$/;"	f
+send_msg	lfd_encrypt.c	/^int send_msg(int len, char *in, char **out)$/;"	f
+sequence_num	lfd_encrypt.c	/^unsigned long sequence_num;$/;"	v
+server	server.c	/^void server(int sock)$/;"	f
+server_addr	netlib.c	/^int server_addr(struct sockaddr_in *addr, struct vtun_host *host)$/;"	f
+server_term	server.c	/^static volatile sig_atomic_t server_term;$/;"	v	file:
+set_title	lib.c	/^void set_title(const char *fmt, ...)$/;"	f
+set_title	lib.h	39;"	d
+setproctitle	configure	/^setproctitle ();$/;"	f
+shaper_avail	lfd_shaper.c	/^int shaper_avail(void)$/;"	f
+shaper_counter	lfd_shaper.c	/^int shaper_counter(int len, char *in, char **out)$/;"	f
+shaper_init	lfd_shaper.c	/^int shaper_init(struct vtun_host *host)$/;"	f
+shell	vtun.h	/^   char *shell; 	 \/* Shell *\/$/;"	m	struct:vtun_opts
+sig_alarm	linkfd.c	/^void sig_alarm(int sig)$/;"	f
+sig_hup	linkfd.c	/^static void sig_hup(int sig)$/;"	f	file:
+sig_term	client.c	/^static void sig_term(int sig)$/;"	f	file:
+sig_term	linkfd.c	/^static void sig_term(int sig)$/;"	f	file:
+sig_term	server.c	/^static void sig_term(int sig)$/;"	f	file:
+sig_usr1	linkfd.c	/^static void sig_usr1(int sig)$/;"	f	file:
+socket	configure	/^socket ();$/;"	f
+sopt	vtun.h	/^   struct vtun_sopt sopt;$/;"	m	struct:vtun_host	typeref:struct:vtun_host::vtun_sopt
+spd_in	vtun.h	/^   int  spd_in;$/;"	m	struct:vtun_host
+spd_out	vtun.h	/^   int  spd_out;$/;"	m	struct:vtun_host
+split_args	lib.c	/^void split_args(char *str, char **argv)$/;"	f
+src_addr	vtun.h	/^   struct vtun_addr src_addr;$/;"	m	struct:vtun_host	typeref:struct:vtun_host::vtun_addr
+srcaddr_option	cfg_file.y	/^srcaddr_option:  $/;"	l
+srcaddr_options	cfg_file.y	/^srcaddr_options: \/* empty *\/$/;"	l
+stat	vtun.h	/^   struct vtun_stat stat;$/;"	m	struct:vtun_host	typeref:struct:vtun_host::vtun_stat
+stat_timer	linkfd.c	/^static time_t stat_timer = 0, ka_timer = 0; $/;"	v	file:
+statement	cfg_file.y	/^statement: '\\n'$/;"	l
+str	cfg_kwords.h	/^   char *str;$/;"	m	struct:kword
+subst_opt	lib.c	/^char * subst_opt(char *str, struct vtun_sopt *opt)$/;"	f
+svr_addr	vtun.h	/^   char *svr_addr;       \/* Server's address (string) *\/$/;"	m	struct:vtun_opts
+svr_name	vtun.h	/^   char *svr_name;       \/* Server's host name *\/$/;"	m	struct:vtun_opts
+svr_type	vtun.h	/^   int  svr_type;	 \/* Server mode *\/$/;"	m	struct:vtun_opts
+syslog	vtun.h	/^   int  syslog; 	 \/* Facility to log messages to syslog under *\/$/;"	m	struct:vtun_opts
+syslog_opt	cfg_file.y	/^syslog_opt:$/;"	l
+tail	llist.h	/^	llist_elm * tail;$/;"	m	struct:__anon1
+tap_close	generic/tap_dev.c	/^int tap_close(int fd, char *dev)$/;"	f
+tap_close	linux/tun_dev.c	/^int tap_close(int fd, char *dev) { return close(fd); }$/;"	f
+tap_close	svr4/tap_dev.c	/^int tap_close(int fd, char *dev)$/;"	f
+tap_open	generic/tap_dev.c	/^int tap_open(char *dev)$/;"	f
+tap_open	linux/tun_dev.c	/^int tap_open(char *dev) { return tun_open_common(dev, 0); }$/;"	f
+tap_open	svr4/tap_dev.c	/^int tap_open(char *dev)$/;"	f
+tap_read	generic/tap_dev.c	/^int tap_read(int fd, char *buf, int len)$/;"	f
+tap_read	linux/tun_dev.c	/^int tap_read(int fd, char *buf, int len) { return read(fd, buf, len); }$/;"	f
+tap_read	svr4/tap_dev.c	/^int tap_read(int fd, char *buf, int len)$/;"	f
+tap_write	generic/tap_dev.c	/^int tap_write(int fd, char *buf, int len)$/;"	f
+tap_write	linux/tun_dev.c	/^int tap_write(int fd, char *buf, int len) { return write(fd, buf, len); }$/;"	f
+tap_write	svr4/tap_dev.c	/^int tap_write(int fd, char *buf, int len)$/;"	f
+tcp_read	generic/tcp_proto.c	/^int tcp_read(int fd, char *buf)$/;"	f
+tcp_write	generic/tcp_proto.c	/^int tcp_write(int fd, char *buf, int len)$/;"	f
+timeout	vtun.h	/^   int  timeout;$/;"	m	struct:vtun_host
+timeout	vtun.h	/^   int  timeout;$/;"	m	struct:vtun_opts
+timersub	lfd_shaper.c	80;"	d	file:
+title_end	lib.c	/^char	*title_end;     \/* end of the proc title space *\/$/;"	v
+title_size	lib.c	/^int	title_size;$/;"	v
+title_start	lib.c	/^char	*title_start;	\/* start of the proc title space *\/$/;"	v
+tun_close	freebsd/tun_dev.c	/^int tun_close(int fd, char *dev)$/;"	f
+tun_close	generic/tun_dev.c	/^int tun_close(int fd, char *dev)$/;"	f
+tun_close	linux/tun_dev.c	/^int tun_close(int fd, char *dev) { return close(fd); }$/;"	f
+tun_close	openbsd/tun_dev.c	/^int tun_close(int fd, char *dev)$/;"	f
+tun_close	svr4/tun_dev.c	/^int tun_close(int fd, char *dev)$/;"	f
+tun_open	freebsd/tun_dev.c	/^int tun_open(char *dev)$/;"	f
+tun_open	generic/tun_dev.c	/^int tun_open(char *dev)$/;"	f
+tun_open	linux/tun_dev.c	/^int tun_open(char *dev) { return tun_open_common(dev, 1); }$/;"	f
+tun_open	openbsd/tun_dev.c	/^int tun_open(char *dev)$/;"	f
+tun_open	svr4/tun_dev.c	/^int tun_open(char *dev)$/;"	f
+tun_open_common	linux/tun_dev.c	/^static int tun_open_common(char *dev, int istun)$/;"	f	file:
+tun_open_common	linux/tun_dev.c	117;"	d	file:
+tun_open_common0	linux/tun_dev.c	/^static int tun_open_common0(char *dev, int istun)$/;"	f	file:
+tun_read	freebsd/tun_dev.c	/^int tun_read(int fd, char *buf, int len)$/;"	f
+tun_read	generic/tun_dev.c	/^int tun_read(int fd, char *buf, int len)$/;"	f
+tun_read	linux/tun_dev.c	/^int tun_read(int fd, char *buf, int len) { return read(fd, buf, len); }$/;"	f
+tun_read	openbsd/tun_dev.c	/^int tun_read(int fd, char *buf, int len)$/;"	f
+tun_read	svr4/tun_dev.c	/^int tun_read(int fd, char *buf, int len)$/;"	f
+tun_write	freebsd/tun_dev.c	/^int tun_write(int fd, char *buf, int len)$/;"	f
+tun_write	generic/tun_dev.c	/^int tun_write(int fd, char *buf, int len)$/;"	f
+tun_write	linux/tun_dev.c	/^int tun_write(int fd, char *buf, int len) { return write(fd, buf, len); }$/;"	f
+tun_write	openbsd/tun_dev.c	/^int tun_write(int fd, char *buf, int len)$/;"	f
+tun_write	svr4/tun_dev.c	/^int tun_write(int fd, char *buf, int len)$/;"	f
+tunnel	tunnel.c	/^int tunnel(struct vtun_host *host)$/;"	f
+tv2ms	lfd_shaper.c	/^unsigned long inline tv2ms(struct timeval tv)$/;"	f
+type	cfg_kwords.h	/^   int  type;$/;"	m	struct:kword
+type	vtun.h	/^   int type;$/;"	m	struct:vtun_addr
+udp_read	generic/udp_proto.c	/^int udp_read(int fd, char *buf)$/;"	f
+udp_session	netlib.c	/^int udp_session(struct vtun_host *host) $/;"	f
+udp_write	generic/udp_proto.c	/^int udp_write(int fd, char *buf, int len)$/;"	f
+unlock_host	lock.c	/^void unlock_host(struct vtun_host *host)$/;"	f
+up	vtun.h	/^   llist up;$/;"	m	struct:vtun_host
+usage	main.c	/^void usage(void)$/;"	f
+vtun	main.c	/^struct vtun_opts vtun;$/;"	v	typeref:struct:vtun_opts
+vtun_addr	vtun.h	/^struct vtun_addr {$/;"	s
+vtun_cmd	vtun.h	/^struct vtun_cmd {$/;"	s
+vtun_host	vtun.h	/^struct vtun_host {$/;"	s
+vtun_opts	vtun.h	/^struct vtun_opts {$/;"	s
+vtun_sopt	vtun.h	/^struct vtun_sopt {$/;"	s
+vtun_stat	vtun.h	/^struct vtun_stat {$/;"	s
+vtun_syslog	lib.c	/^void vtun_syslog (int priority, char *format, ...)$/;"	f
+wmem	lfd_lzo.c	/^static lzo_voidp wmem;$/;"	v	file:
+write_n	lib.h	/^static inline int write_n(int fd, char *buf, int len)$/;"	f
+write_pid	main.c	/^void write_pid(void)$/;"	f
+yywrap	configure	/^yywrap ();$/;"	f
+zbuf	lfd_lzo.c	/^static lzo_byte *zbuf;$/;"	v	file:
+zbuf	lfd_zlib.c	/^static unsigned char *zbuf;$/;"	v	file:
+zbuf_size	lfd_lzo.c	/^static int zbuf_size = VTUN_FRAME_SIZE * VTUN_FRAME_SIZE \/ 64 + 16 + 3;$/;"	v	file:
+zbuf_size	lfd_zlib.c	/^static int zbuf_size = VTUN_FRAME_SIZE + 200;$/;"	v	file:
+zd	lfd_zlib.c	/^static z_stream zi, zd; $/;"	v	file:
+zi	lfd_zlib.c	/^static z_stream zi, zd; $/;"	v	file:
+zlevel	vtun.h	/^   int  zlevel;$/;"	m	struct:vtun_host
+zlib_alloc	lfd_zlib.c	/^int zlib_alloc(struct vtun_host *host)$/;"	f
+zlib_comp	lfd_zlib.c	/^int zlib_comp(int len, char *in, char **out)$/;"	f
+zlib_decomp	lfd_zlib.c	/^int zlib_decomp(int len, char *in, char **out)$/;"	f
+zlib_free	lfd_zlib.c	/^int zlib_free()$/;"	f
