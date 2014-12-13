@@ -76,6 +76,7 @@ struct kword cfg_param[] = {
    { "ether",	 VTUN_ETHER }, 
    { "tun",	 VTUN_TUN }, 
    { "tcp",      VTUN_TCP }, 
+   { "sctp",      VTUN_SCTP }, 
    { "udp",      VTUN_UDP }, 
    { "client",   VTUN_NAT_HACK_CLIENT },
    { "server",   VTUN_NAT_HACK_SERVER },   

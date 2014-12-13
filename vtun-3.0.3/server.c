@@ -58,6 +58,7 @@ static void sig_term(int sig)
      server_term = VTUN_SIG_TERM;
 }
 
+// hmy:fork 一个新的进程处理一个新的客户端请求
 void connection(int sock)
 {
      struct sockaddr_in my_addr, cl_addr;

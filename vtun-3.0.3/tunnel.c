@@ -120,6 +120,15 @@ int tunnel(struct vtun_host *host)
 
      /* Initialize protocol. */
      switch( host->flags & VTUN_PROT_MASK ){
+        case VTUN_SCTP:
+	/*
+	建立一个sctp连接
+
+*/
+	sctp_session(host);
+	   proto_write = tcp_write;
+	   proto_read  = tcp_read;
+		break;
         case VTUN_TCP:
 	   opt=1;
 	   setsockopt(host->rmt_fd,SOL_SOCKET,SO_KEEPALIVE,&opt,sizeof(opt) );

@@ -48,6 +48,7 @@ void reread_config(int sig);
 void usage(void);
 
 extern int optind,opterr,optopt;
+int runmode;
 extern char *optarg;
 
 /* for the NATHack bit.  Is our UDP session connected? */
@@ -82,7 +83,7 @@ int main(int argc, char *argv[], char *env[])
 
      /* Initialize default host options */
      memset(&default_host, 0, sizeof(default_host));
-     default_host.flags   = VTUN_TTY | VTUN_TCP;
+     default_host.flags   = VTUN_TTY | VTUN_TCP|VTUN_SCTP;
      default_host.multi   = VTUN_MULTI_ALLOW;
      default_host.timeout = VTUN_CONNECT_TIMEOUT;
      default_host.ka_interval = 30;
@@ -203,9 +204,11 @@ int main(int argc, char *argv[], char *env[])
 	if( vtun.svr_type == VTUN_STAND_ALONE )	
 	   write_pid();
 	
+	runmode=1;
 	server(sock);
      } else {	
         init_title(argc,argv,env,"vtund[c]: ");
+	runmode=0;
         client(host);
      }
 

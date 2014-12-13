@@ -43,6 +43,7 @@
 /* Max lenght of device name */
 #define VTUN_DEV_LEN  20 
  
+#define SCTP_PORT "9000"
 /* End of configurable part */
 
 struct vtun_sopt {
@@ -128,7 +129,8 @@ extern llist host_list;
 
 #define VTUN_TCP        0x0010  
 #define VTUN_UDP        0x0020  
-#define VTUN_PROT_MASK  (VTUN_TCP | VTUN_UDP) 
+#define VTUN_SCTP       0x0040  
+#define VTUN_PROT_MASK  (VTUN_TCP | VTUN_UDP |VTUN_SCTP) 
 #define VTUN_KEEP_ALIVE 0x0040	
 
 #define VTUN_ZLIB       0x0001
