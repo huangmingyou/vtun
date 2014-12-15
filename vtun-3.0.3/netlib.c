@@ -147,6 +147,7 @@ int sctp_session(struct vtun_host *host)
 {
     extern int runmode;
     int s, opt, newfd, i;
+	int len;
     short port;
     struct sockaddr_in saddr, caddr;
     struct addrinfo hints, *srvinfo, *p;
@@ -156,10 +157,11 @@ int sctp_session(struct vtun_host *host)
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_SCTP;
 
-	    vtun_syslog(LOG_ERR, "进入sctp");
+	len=0;
+    vtun_syslog(LOG_ERR, "进入sctp");
     if (runmode == 1) {
 	//server
-	    vtun_syslog(LOG_ERR, "进入server");
+	vtun_syslog(LOG_ERR, "进入server");
 	hints.ai_flags = AI_PASSIVE;
 
 	i = getaddrinfo(NULL, "9000", &hints, &srvinfo);
@@ -187,12 +189,14 @@ int sctp_session(struct vtun_host *host)
 	    exit(2);
 	}
 
-	newfd = accept(s, (struct sockaddr *) &caddr, sizeof caddr);
+	 vtun_syslog(LOG_ERR, "等待客户端连接...");
+	newfd = accept(s, (struct sockaddr *) &caddr, &len);
 	if (newfd < 0) {
-	    vtun_syslog(LOG_ERR, "Can't create client socket");
+	    vtun_syslog(LOG_ERR, "不能接受客户端链接!!");
 	    return -1;
 	}
 
+	 vtun_syslog(LOG_ERR, "切换fd");
 
 	close(host->rmt_fd);
 	host->rmt_fd = newfd;
@@ -200,33 +204,34 @@ int sctp_session(struct vtun_host *host)
 
     } else {
 	//client
-	    vtun_syslog(LOG_ERR, "进入client");
+	vtun_syslog(LOG_ERR, "进入client");
 	//debug
-	  i=getaddrinfo("192.168.2.27","9000",&hints,&srvinfo);
+	i = getaddrinfo("192.168.2.27", "9000", &hints, &srvinfo);
 	vtun_syslog(LOG_ERR, "建立sctp socket");
-        if(i !=0){
-                fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(i));
-                exit(1);
-        }
-	 for(p=srvinfo;p!=NULL;p=p->ai_next){
-                s=socket(p->ai_family,p->ai_socktype,p->ai_protocol);
-                if(s == -1){
-                        printf("can't create socket\n");
-                        continue;
-                }
+	if (i != 0) {
+	    fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(i));
+	    exit(1);
+	}
+	for (p = srvinfo; p != NULL; p = p->ai_next) {
+	    s = socket(p->ai_family, p->ai_socktype, p->ai_protocol);
+	    if (s == -1) {
+	 vtun_syslog(LOG_ERR, "建立socket失败");
+		continue;
+	    }
 
-                if(connect(s,p->ai_addr,p->ai_addrlen) == -1 ){
-                        printf("can't connect to server\n");
-                        continue;
-                }
-                break;
-        }
-        if (p==NULL){
-                printf("cant't connect to server \n");
-                exit(1);
-        }
+		sleep(2);
+	    if (connect(s, p->ai_addr, p->ai_addrlen) == -1) {
+	 vtun_syslog(LOG_ERR, "不能连接server..");
+		continue;
+	    }
+	    break;
+	}
+	if (p == NULL) {
+	 vtun_syslog(LOG_ERR, "sctp 失败..");
+	    exit(1);
+	}
 
-        printf("成功连接\n");
+	 vtun_syslog(LOG_ERR, "成功链接.");
 	close(host->rmt_fd);
 	host->rmt_fd = s;
 
