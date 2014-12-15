@@ -167,7 +167,7 @@ int sctp_session(struct vtun_host *host)
 	i = getaddrinfo(NULL, "9000", &hints, &srvinfo);
 	if (i < 0) {
 	    fprintf(stderr, "getaddrinfo %s\n", gai_strerror(i));
-	    exit(2);
+	    return -1;
 	}
 
 	for (p = srvinfo; p != NULL; p = p->ai_next) {
@@ -180,13 +180,13 @@ int sctp_session(struct vtun_host *host)
 	}
 	if (p == NULL) {
 	    perror("bind 失败\n");
-	    exit(2);
+	    return -1;
 	}
 
 	i = listen(s, 10);
 	if (i < 0) {
 	    perror("listen 失败\n");
-	    exit(2);
+	    return -1;
 	}
 
 	 vtun_syslog(LOG_ERR, "等待客户端连接...");
@@ -206,11 +206,11 @@ int sctp_session(struct vtun_host *host)
 	//client
 	vtun_syslog(LOG_ERR, "进入client");
 	//debug
-	i = getaddrinfo("192.168.2.27", "9000", &hints, &srvinfo);
+	i = getaddrinfo(vtun.svr_name, "9000", &hints, &srvinfo);
 	vtun_syslog(LOG_ERR, "建立sctp socket");
 	if (i != 0) {
 	    fprintf(stderr, "getaddrinfo: %s\n", gai_strerror(i));
-	    exit(1);
+	    return -1;
 	}
 	for (p = srvinfo; p != NULL; p = p->ai_next) {
 	    s = socket(p->ai_family, p->ai_socktype, p->ai_protocol);
@@ -228,7 +228,7 @@ int sctp_session(struct vtun_host *host)
 	}
 	if (p == NULL) {
 	 vtun_syslog(LOG_ERR, "sctp 失败..");
-	    exit(1);
+		return -1;
 	}
 
 	 vtun_syslog(LOG_ERR, "成功链接.");
@@ -237,6 +237,7 @@ int sctp_session(struct vtun_host *host)
 
 
     }
+	return 0;
 }
 
 /* 

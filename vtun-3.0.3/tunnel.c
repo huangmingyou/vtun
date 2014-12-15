@@ -125,7 +125,9 @@ int tunnel(struct vtun_host *host)
 	建立一个sctp连接
 
 */
-	sctp_session(host);
+	if(sctp_session(host)<0){
+		return -1;
+	}
 	   proto_write = tcp_write;
 	   proto_read  = tcp_read;
 		break;
